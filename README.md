@@ -1,16 +1,16 @@
-## Hi there 👋
+# Hi, I'm Triet 👋
+**📍 Vietnam (VN) | 🤖 AI Developer & Researcher**
 
-<!--
-**MinhTrietNg/MinhTrietNg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🛠️ Core Stack
+* **AI & Research:** Python, Pytorch, OpenCV, Tensorflow
+* **Web Development:** ReactJS, Django
+* **Mobile App:** ...
 
-Here are some ideas to get you started:
+### 🚀 Projects & Experiments
+* 🔭 **[Smart Attendance System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System):** Smart attendance tracking project for schools.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+### 📫 Let's Connect
+If you want to discuss the future of AI, collaborate on open-source projects, or simply share tech ideas:
+* **Email:** mintrikfcode@gmail.com
+* **Phone:** (+84) 886 991 545
