@@ -7,7 +7,7 @@
 * **Mobile App:** ...
 
 ### 🚀 Projects & Experiments
-* 🔭 **[Smart Attendance System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System):** Smart attendance tracking project for schools.
+* 📷 **[Smart Attendance System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System):** Smart attendance tracking project for schools.
 
 ---
 ### 📫 Let's Connect
