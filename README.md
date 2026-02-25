@@ -1,12 +1,14 @@
 # Hi, I'm Triet 👋
-#### **📍 Vietnam (VN) | 🤖 AI Developer & Researcher**
+**📍 Vietnam (VN) | 🤖 AI Developer & Researcher**
+#### **📖 Personal Tech Blog | [Link](https://www.notion.so/Technology-Blog-2ee0629b989a8039a83ce683b5a798bc?source=copy_link)**
 > True machine intelligence begins where human supervision ends
 
-## 🛠️ Core Stack
+
+### 🛠️ Core Stack
 * **AI & Research:** Python, Pytorch, OpenCV, Tensorflow, Numpy
 * **Web Development:** ReactJS, Django
 
-## 🚀 Projects & Experiments
+### 🚀 Projects & Experiments
 * 📷 **[SAS's Model](https://github.com/MinhTrietNg/SAS_Model):** AI Model Fine-tuning for the [SAS Project](https://github.com/MinhTrietNg/Smart-Attendance-System).
 * 🤳 **[Smart Attendance System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System):** Smart attendance tracking project for schools.
 
