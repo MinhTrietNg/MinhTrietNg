@@ -11,6 +11,10 @@
 ### 🚀 Projects & Experiments
 * 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System)
 
+### 🔬Technical Labs & Researcher
+* 🦕 [Deep Learning](https://github.com/MinhTrietNg/Deep-Learning)
+* 🧮 [Mathematics](https://github.com/MinhTrietNg/Mathematics)
+  
 ---
 ### 📫 Let's Connect
 If you want to discuss the future of AI, collaborate on open-source projects, or simply share tech ideas:
