@@ -9,7 +9,7 @@
 * **Web Development:** ReactJS, Django
 
 ### 🚀 Projects & Experiments
-
+* 🔍[Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System)
 
 ---
 ### 📫 Let's Connect
