@@ -9,8 +9,8 @@
 * **Web Development:** ReactJS, Django
 
 ### 🚀 Projects & Experiments
-* ⚙️ [CogniTwin by NOD89 - Hackathon GDGoC 2026](https://github.com/MinhTrietNg/CogniTwin-by-NOD89)
-* 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System)
+* ⚙️ [CogniTwin by NOD89 - Hackathon GDGoC 2026](https://github.com/MinhTrietNg/CogniTwin-by-NOD89) - _IN PROGRESS_
+* 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System) - _IN PROGRESS_
 
 ### 🔬Technical Labs & Researcher
 * 📊 [Data Structures & Algorithms](https://github.com/MinhTrietNg/Data-Structures-and-Algorithms)
