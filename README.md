@@ -1,6 +1,5 @@
 # Hi, I'm Triet 👋
 **📍 Vietnam (VN) | 🤖 AI Developer & Researcher**
-#### **📖 Personal Tech Blog | [Link](https://www.notion.so/Technology-Blog-2ee0629b989a8039a83ce683b5a798bc?source=copy_link)**
 > True machine intelligence begins where human supervision ends
 
 
@@ -9,7 +8,6 @@
 * **Web Development:** ReactJS, Django
 
 ### 🚀 Projects & Experiments
-* ⚙️ [CogniTwin by NOD89 - Hackathon GDGoC 2026](https://github.com/MinhTrietNg/CogniTwin-by-NOD89) - _IN PROGRESS_
 * 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System) - _IN PROGRESS_
 
 ### 🔬Technical Labs & Researcher
@@ -20,4 +18,3 @@
 If you want to discuss the future of AI, collaborate on open-source projects, or simply share tech ideas:
 * **Email:** mintrikfcode@gmail.com
 * **GitHub:** [MinhTrietNg](https://github.com/MinhTrietNg)
-* **Phone:** (+84) 886 991 545
