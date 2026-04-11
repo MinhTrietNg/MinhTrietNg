@@ -1,4 +1,4 @@
-# Hi, I'm Triet 👋
+# Hi, I'm Triet Nguyen 👋
 **📍 Vietnam (VN) | 🤖 AI Developer & Researcher**
 > True machine intelligence begins where human supervision ends
 
@@ -8,7 +8,7 @@
 * **Web Development:** ReactJS, Django
 
 ### 🚀 Projects & Experiments
-* 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System) - _IN PROGRESS_
+* 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System) - _in progress_
 
 ### 🔬Technical Labs & Researcher
 * 📊 [Data Structures & Algorithms](https://github.com/MinhTrietNg/Data-Structures-and-Algorithms)
