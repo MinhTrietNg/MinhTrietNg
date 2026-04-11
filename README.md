@@ -6,7 +6,7 @@
 * **Web Development:** ReactJS, Django, HTML, CSS, JavaScript
 * **Mobile & Frameworks:** Flutter
 * **Languages & Databases:** C++, SQL
-* **AI Tools & VibeCoding:** Claude Code (Google Antigravity), Google A.I Studio API
+* **AI Tools & VibeCoding:** Claude Code, Google Antigravity
 
 ### 🚀 Projects & Experiments
 * 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System) - _in progress_
