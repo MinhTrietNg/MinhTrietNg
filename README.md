@@ -1,11 +1,12 @@
 # Hi, I'm Triet Nguyen 👋
-**📍 Vietnam (VN) | 🤖 AI Developer & Researcher**
-> True machine intelligence begins where human supervision ends
-
+**📍 Vietnam (VN) | 🤖 A.I Developer & Researcher | 😎 Vibe Coder**
 
 ### 🛠️ Core Stack
-* **AI & Research:** Python, Pytorch, OpenCV, Tensorflow, Numpy
-* **Web Development:** ReactJS, Django
+* **AI & Machine Learning:** PyTorch, OpenCV, TensorFlow
+* **Web Development:** ReactJS, Django, HTML, CSS, JavaScript
+* **Mobile & Frameworks:** Flutter
+* **Languages & Databases:** C++, SQL
+* **AI Tools & VibeCoding:** Claude Code (Google Antigravity), Google A.I Studio API
 
 ### 🚀 Projects & Experiments
 * 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System) - _in progress_
