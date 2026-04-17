@@ -3,7 +3,7 @@
 
 ### 🛠️ Core Stack
 * **AI & Machine Learning:** PyTorch, OpenCV, TensorFlow
-* **Web Development:** ReactJS, Django, HTML, CSS, JavaScript
+* **Web Development:** ReactJS, Django
 * **Mobile & Frameworks:** Flutter
 * **Languages & Databases:** C++, SQL
 * **AI Tools & VibeCoding:** Claude Code, Google Antigravity
