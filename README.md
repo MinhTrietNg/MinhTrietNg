@@ -1,5 +1,5 @@
 # Hi, I'm Triet Nguyen 👋
-**📍 Vietnam (VN) | 🤖 A.I Developer & Researcher | 😎 Vibe Coder**
+**📍 Vietnam (VN) | 😎 Vibe Coder**
 
 ### 🛠️ Core Stack
 * **AI & Machine Learning:** PyTorch, OpenCV, TensorFlow
