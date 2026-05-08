@@ -1,5 +1,5 @@
 # Hi, I'm Triet Nguyen 👋
-**📍 Vietnam (VN) | 😎 Vibe Coder**
+**📍 Vietnam (VN)
 
 ### 🛠️ Core Stack
 * **AI & Machine Learning:** PyTorch, OpenCV, TensorFlow
@@ -7,12 +7,6 @@
 * **Mobile & Frameworks:** Flutter
 * **Languages & Databases:** C++, SQL
 * **AI Tools & VibeCoding:** Claude Code, Google Antigravity
-
-### 🚀 Projects & Experiments
-* 🏫 [Smart Attendace System (SAS)](https://github.com/MinhTrietNg/Smart-Attendance-System) - _in progress_
-
-### 🔬Technical Labs & Researcher
-* 📊 [Data Structures & Algorithms](https://github.com/MinhTrietNg/Data-Structures-and-Algorithms)
   
 ---
 ### 📫 Let's Connect
