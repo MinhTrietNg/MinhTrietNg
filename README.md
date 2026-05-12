@@ -1,5 +1,5 @@
 # Hi, I'm Triet Nguyen 👋
-**📍 Vietnam (VN)
+**📍 Vietnam (VN)**
 
 ### 🛠️ Core Stack
 * **AI & Machine Learning:** PyTorch, OpenCV, TensorFlow
