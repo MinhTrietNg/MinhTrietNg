@@ -5,9 +5,7 @@
 * **AI & Machine Learning:** PyTorch, OpenCV, TensorFlow
 * **Web Development:** ReactJS, Django
 * **Mobile & Frameworks:** Flutter
-* **Languages & Databases:** C++, SQL
-* **AI Tools & VibeCoding:** Claude Code, Google Antigravity
-  
+* **Languages & Databases:** C++, SQL  
 ---
 ### 📫 Let's Connect
 If you want to discuss the future of AI, collaborate on open-source projects, or simply share tech ideas:
