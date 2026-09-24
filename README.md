@@ -78,17 +78,6 @@ class TrietNguyen:
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=MinhTrietNg&theme=tokyonight&hide_border=true&border_radius=10&date_format=j%20M%5B%20Y%5D" />
-    <img height="180" alt="GitHub streak" src="https://streak-stats.demolab.com?user=MinhTrietNg&theme=default&hide_border=false&border_radius=10&date_format=j%20M%5B%20Y%5D" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MinhTrietNg/MinhTrietNg/output/summary-cards/productive-time-dark.svg" />
-    <img height="180" alt="Productive time" src="https://raw.githubusercontent.com/MinhTrietNg/MinhTrietNg/output/summary-cards/productive-time.svg" />
-  </picture>
-</p>
-
 <!-- ============================== CONTACT ============================== -->
 ## 📫 Let's Connect
 
