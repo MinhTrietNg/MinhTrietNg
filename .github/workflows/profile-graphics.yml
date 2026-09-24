@@ -15,6 +15,25 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      # Reports only yes/no facts (never the token, repo names or counts) as run annotations
+      - name: Check token access
+        env:
+          TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "::warning::PROFILE_STATS_TOKEN not found - only public activity is counted"
+            exit 0
+          fi
+          q='{"query":"{ viewer { owned: repositories(privacy: PRIVATE, ownerAffiliations: OWNER) { totalCount } shared: repositories(privacy: PRIVATE, ownerAffiliations: [COLLABORATOR, ORGANIZATION_MEMBER]) { totalCount } } }"}'
+          r=$(curl -s -H "Authorization: bearer $TOKEN" -d "$q" https://api.github.com/graphql)
+          if echo "$r" | jq -e '.data.viewer' > /dev/null; then
+            owned=$(echo "$r" | jq '.data.viewer.owned.totalCount > 0')
+            shared=$(echo "$r" | jq '.data.viewer.shared.totalCount > 0')
+            echo "::notice::Token loaded. Sees own private repos: $owned. Sees org/collaborator private repos: $shared"
+          else
+            echo "::warning::Token rejected: $(echo "$r" | jq -r '.message // .errors[0].message // "unknown error"')"
+          fi
+
       # 3D contribution calendar, languages and totals.
       # Only aggregated counts are queried — repository names and contents are never read or rendered.
       # Uses the PROFILE_STATS_TOKEN secret (read-only PAT) to include private activity,
