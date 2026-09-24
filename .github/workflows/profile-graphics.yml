@@ -20,10 +20,21 @@ jobs:
       # Uses the PROFILE_STATS_TOKEN secret (read-only PAT) to include private activity,
       # falling back to the default token (public activity only) when it is not set.
       - name: Generate 3D contribution calendar
-        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        uses: yoshi389111/github-profile-3d-contrib@7d95e7d4cdc028dd1e1cbd957d65f35efb12ae39 # v0.9.3
         env:
           GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+
+      # Productive-time card built with the same token so private commits are counted.
+      # Cards show aggregates only (no repo names, commit messages or SHAs).
+      - name: Generate summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@d9632798b299e9ad6940449a859c30742eb5b549 # v0.12.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          UTC_OFFSET: 7
+          AUTO_PUSH: false
 
       - name: Generate snake SVGs
         uses: Platane/snk@v3
@@ -39,6 +50,9 @@ jobs:
           mkdir -p out
           cp -r profile-3d-contrib out/
           cp dist/*.svg out/
+          mkdir -p out/summary-cards
+          cp profile-summary-card-output/tokyonight/4-productive-time.svg out/summary-cards/productive-time-dark.svg
+          cp profile-summary-card-output/github/4-productive-time.svg out/summary-cards/productive-time.svg
           ls -R out
 
       - name: Push SVGs to the output branch
