@@ -89,13 +89,6 @@ class TrietNguyen:
   </picture>
 </p>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MinhTrietNg/MinhTrietNg/output/github-snake-dark.svg" />
-    <img width="100%" alt="Contribution snake" src="https://raw.githubusercontent.com/MinhTrietNg/MinhTrietNg/output/github-snake.svg" />
-  </picture>
-</p>
-
 <!-- ============================== CONTACT ============================== -->
 ## 📫 Let's Connect
 

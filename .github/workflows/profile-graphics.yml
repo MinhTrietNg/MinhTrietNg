@@ -56,20 +56,10 @@ jobs:
           UTC_OFFSET: 7
           AUTO_PUSH: false
 
-      - name: Generate snake SVGs
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-
-      # dist/ is created by the snk container as root, so gather everything into a fresh folder
       - name: Collect outputs
         run: |
           mkdir -p out
           cp -r profile-3d-contrib out/
-          cp dist/*.svg out/
           mkdir -p out/summary-cards
           cp profile-summary-card-output/tokyonight/4-productive-time.svg out/summary-cards/productive-time-dark.svg
           cp profile-summary-card-output/github/4-productive-time.svg out/summary-cards/productive-time.svg
