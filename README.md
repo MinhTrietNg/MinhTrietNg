@@ -56,18 +56,6 @@ class TrietNguyen:
   </tr>
 </table>
 
-<!-- ============================== FEATURED ============================== -->
-## 📌 Featured Project
-
-<p align="center">
-  <a href="https://github.com/MinhTrietNg/Data-Structures-and-Algorithms">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api/pin?username=MinhTrietNg&repo=Data-Structures-and-Algorithms&theme=tokyonight&hide_border=true&border_radius=10&show_owner=false" />
-      <img alt="Data Structures and Algorithms" src="https://github-stats-extended.vercel.app/api/pin?username=MinhTrietNg&repo=Data-Structures-and-Algorithms&theme=default&hide_border=false&border_radius=10&show_owner=false" />
-    </picture>
-  </a>
-</p>
-
 <!-- ============================== ACTIVITY ============================== -->
 ## 📊 GitHub Activity
 
