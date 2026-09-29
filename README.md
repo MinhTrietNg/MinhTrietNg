@@ -59,6 +59,9 @@ class TrietNguyen:
 <!-- ============================== ACTIVITY ============================== -->
 ## 📊 GitHub Activity
 
+> [!NOTE]
+> This activity includes contributions to private repositories.
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MinhTrietNg/MinhTrietNg/output/profile-3d-contrib/profile-night-rainbow.svg" />
