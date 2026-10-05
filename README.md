@@ -10,7 +10,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/tri%E1%BA%BFt-nguy%E1%BB%85n-1083b93b6"><img src="https://img.shields.io/badge/LinkedIn-Triet%20Nguyen-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:mintrikfcode@gmail.com"><img src="https://img.shields.io/badge/Email-mintrikfcode%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://komarev.com/ghpvc/?username=MinhTrietNg&style=for-the-badge&color=0e75b6&label=Profile+Views" alt="Profile views" />
 </p>
 
 <!-- ============================== ABOUT ============================== -->
