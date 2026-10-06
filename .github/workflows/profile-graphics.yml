@@ -2,7 +2,9 @@ name: Generate profile graphics
 
 on:
   schedule:
-    - cron: "0 0 * * *" # every day at 00:00 UTC
+    # Every 15 minutes. The minutes are offset from :00/:15/:30/:45 on purpose: GitHub's
+    # scheduler is most congested on round times (the old "0 0 * * *" really started ~3h late).
+    - cron: "7,22,37,52 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -10,9 +12,16 @@ on:
 permissions:
   contents: write
 
+# One run at a time so two runs never race to force-push the output branch.
+# A queued run is not cancelled by a newer one starting, only replaced by a newer queued one.
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: false
+
 jobs:
   generate:
-    runs-on: ubuntu-latest
+    # Pinned: "ubuntu-latest" moves to Ubuntu 26 on 2026-10-19, which could silently break the job.
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       # Reports only yes/no facts (never the token, repo names or counts) as run annotations
@@ -51,8 +60,24 @@ jobs:
           cp -r profile-3d-contrib out/
           ls -R out
 
+      # The SVGs only depend on the contribution data, so most 15-minute runs produce
+      # byte-identical files. Skip the force-push then. Any doubt (no output branch yet,
+      # clone failure) falls through to "changed" so the graphics are never left stale.
+      - name: Detect changes
+        id: changes
+        run: |
+          if git clone --quiet --depth 1 --branch output "https://github.com/${GITHUB_REPOSITORY}.git" published \
+            && diff -r published/profile-3d-contrib out/profile-3d-contrib > /dev/null; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Graphics are identical to the published ones - skipping deploy"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Graphics changed - deploying"
+          fi
+
       - name: Push SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        if: steps.changes.outputs.changed == 'true'
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
         with:
           target_branch: output
           build_dir: out
